@@ -1,0 +1,5 @@
+#carouselExampleControlsNoTouching .carousel-inner img {
+  display: inline-flex !important;
+  align-items: center;
+  width: 78% !important;
+}

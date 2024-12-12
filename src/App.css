@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: bisque;
+}
+
+.App .navbar-wrapper {
+  z-index: 2;
+}

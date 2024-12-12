@@ -1,0 +1,48 @@
+.service-card-container .col-sm-6 {
+  width: 100%;
+}
+
+.service-card-container .card {
+  border-radius: 16px;
+  min-height: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+
+.service-card-container .card a {
+  display: flow;
+  border: 1px solid #82b74b;
+  background-color: #82b74b;
+  color: white;
+}
+
+.service-card-container .card-text {
+  min-height: 60px;
+}
+
+.service-card-container .card-title {
+  min-height: 40px;
+}
+
+.service-card-container .card a:hover {
+  background-color: white;
+  color: #82b74b;
+}
+
+.service-card-container .card-title {
+  text-align: left;
+}
+
+.service-card-container .card-text {
+  text-align: left;
+}
+
+.service-card-image {
+  padding: 20px;
+}
+.service-card-container .card img {
+  width: 60px;
+  height: 60px;
+}

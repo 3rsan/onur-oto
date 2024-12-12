@@ -1,0 +1,171 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.contact .contact-title {
+  font-size: 36px;
+  color: #222;
+  margin-top: 90px;
+  padding: 10px;
+}
+
+.contact .contact-subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  color: #505050;
+  margin: 10px auto;
+}
+.contact-info-title {
+  margin: 15px auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #505050;
+}
+
+.contact-info .working-time {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #505050;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #505050;
+}
+
+.member-info .member-info-item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 10px auto;
+}
+
+.row.w-50 {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.member-info .member-info-item input {
+  margin: 5px auto;
+  padding: 5px;
+  border: 1px solid #f4ede2;
+  border-radius: 10px;
+  width: 100%;
+  height: 48px;
+  padding-left: 24px;
+  color: #222;
+  font-size: 14px;
+}
+
+.member-info .member-info-item input:focus-visible {
+  border: 1px solid #ccc !important;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #222;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.message textarea {
+  background: 0 0;
+  border: 1px solid #f4ede2;
+  border-radius: 10px;
+  padding-left: 24px;
+  padding-top: 24px;
+  color: #222;
+  resize: none;
+  font-family: 'Quicksand Medium', sans-serif !important;
+  font-size: 14px !important;
+  letter-spacing: 0 !important;
+}
+
+.consent-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.custom-input-wrapper.consent .status-text {
+  margin-left: 32px;
+  font-size: 12px;
+  color: #222222;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.consent-form span a {
+  color: orange;
+  text-decoration: underline;
+}
+
+.custom-input-wrapper input:checked ~ .checkmark {
+  background-color: #f89b1c;
+}
+
+.custom-input-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #e86624;
+}
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.custom-input-wrapper.consent input:checked ~ .checkmark {
+  background-color: transparent;
+  border: 2px solid #f89b1c;
+}
+
+.custom-input-wrapper.consent .checkmark {
+  border-radius: 5px;
+}
+
+.custom-input-wrapper.consent > .checkmark {
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  border: 2px solid #e3e3e3;
+}
+
+.custom-input-wrapper.consent .checkmark:after {
+  left: 4px;
+  top: 0px;
+  border: solid #f89b1c;
+  border-width: 0 2px 2px 0;
+}
+
+.custom-input-wrapper .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
